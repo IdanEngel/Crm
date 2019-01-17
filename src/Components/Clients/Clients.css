@@ -1,0 +1,71 @@
+.dataBar {
+    background-color: #F7CE3E;
+    height: 5vh;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    box-shadow:2px 2px rgb(180, 168, 168);
+    align-items: center;
+    margin-top: 10px !important;
+    padding-left: 10px;
+    margin: auto;
+}
+
+.client {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    box-shadow:0 1px rgb(236, 223, 223);
+    margin-top: 10px !important;
+    padding-left: 10px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.allClients {
+    margin: 0 5px 5px 5px;
+}
+.dropDown {
+    margin-left: 5px;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0 1px rgb(180, 174, 174);
+    cursor: pointer; 
+}
+
+.searchData input  {
+    border: none;
+    background-color: transparent;
+    box-shadow: 0 1px rgb(180, 174, 174);
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.nopop {
+    display: none;
+}
+
+.popup {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.05);
+    /* background-color: yellow; */
+    top: 0;
+    right: 0;
+    z-index: 1;
+    /* grid-template-columns: 1fr 3fr 1fr */
+}
+
+.form {
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    display: grid;
+    padding: 20px;
+    grid-gap: 10px;
+}
